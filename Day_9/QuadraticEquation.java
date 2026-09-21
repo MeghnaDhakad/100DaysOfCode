@@ -35,6 +35,7 @@ public class QuadraticEquation {
         if(d >= 0){
             double r1 = (-b + Math.sqrt(d)) / (2 * a);
             double r2 = (-b - Math.sqrt(d)) / (2 * a);
+            //also could have done d == 0
             if(r1 == r2){
                 System.out.println("Roots are real and same: "+ r1);
             }
